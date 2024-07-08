@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        *{ /*Resetando tudo*/
+            margin: none;
+            padding: none;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        body{
+            background-color: rgb(206, 206, 255);
+        }
+        .container{
+            width: 97vw;
+            height: 97vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #containerLittle{
+            background-color: aliceblue;
+            padding: 15px;
+            border-radius: 16px;
+            border: 2px solid rgb(10, 10, 53);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            margin: 5px;
+            text-align: center;
+        }
+       
+    </style>
+</head>
+
+<body>
+    
+    <div class="container">
+        <h1 id="titulo"></h1>
+        <div id="containerLittle">
+            <a href="../../../index.html"><img src="../../voltar.png" alt="Imagem com seta indicando voltar" width="10%"></a>
+            <h3 id="textinho"></h3>
+            <img src="" alt="Imagem do horario atual" id="img"width="50%" align="center">
+        </div>
+        <p>&copy; Arthur Augusto</p>
+    </div>
+    <script src="../js/eotaldoscript.js"></script>
+</body>
+
+</html>

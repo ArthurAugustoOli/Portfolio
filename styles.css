@@ -1,0 +1,123 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fefeff; /* branco */
+    color: #01002a; /* azul escuro */
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 15px;
+    padding: 20px;
+    
+}
+.flexV{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.flexH{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    background-color: #031867; /* azul escuro */
+    color: #fefeff; /* branco */
+    text-align: center;
+    padding: 40px 0;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.activities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.activity-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0054; /* rosa */
+    color: #fefeff; /* branco */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.header-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fefeff; /* rosa */
+    color: #ff0054; /* branco */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+.header-button:hover {
+    background-color: #d60045; /* rosa escuro (hover) */
+    color: #fefeff;
+}
+.activity-button:hover {
+    background-color: #d60045; /* rosa escuro (hover) */
+}
+
+footer {
+    background-color: #031867; /* azul escuro */
+    color: #fefeff; /* branco */
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  font-size: 28px;
+}
+.social a {
+  color: #ff0054;
+  text-decoration: none;
+  margin: 10px;
+}
+.social:hover a {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+.social:hover a:hover {
+  opacity: 1;
+  transition: 0.5s;
+}
